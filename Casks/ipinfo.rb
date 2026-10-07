@@ -1,8 +1,10 @@
 cask "ipinfo" do
-  version "1.2.0"
-  sha256 "79710b8e98e54a97118aa151dfa3bb3f2c2456bf9bd833f645a411ab02306e88"
+  arch arm: "arm64", intel: "universal"
 
-  url "https://github.com/behnambagheri/ipinfo/releases/download/v#{version}/IPinfo-#{version}-universal.zip"
+  version "1.2.1"
+  sha256 arm: "55ab533f8ca4d4dc2268bfd41e4d2e7239e312a7bf5cac5a0ab401a178fe34c5", intel: "86cd28ea589bf0581586a12aff38e23ddea9c88bb4147da741c1f777e1851023"
+
+  url "https://github.com/behnambagheri/ipinfo/releases/download/v#{version}/IPinfo-#{version}-#{arch}.zip"
   name "IPinfo"
   desc "Compare IP and network diagnostics from two services"
   homepage "https://github.com/behnambagheri/ipinfo"
