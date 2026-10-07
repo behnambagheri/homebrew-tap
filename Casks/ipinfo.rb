@@ -1,8 +1,8 @@
 cask "ipinfo" do
   arch arm: "arm64", intel: "universal"
 
-  version "1.2.1"
-  sha256 arm: "55ab533f8ca4d4dc2268bfd41e4d2e7239e312a7bf5cac5a0ab401a178fe34c5", intel: "86cd28ea589bf0581586a12aff38e23ddea9c88bb4147da741c1f777e1851023"
+  version "1.2.2"
+  sha256 arm: "287377bb87d01ff889a9a5b9d570b8ba7c4c444ed47dac2590b1a9d6180fab81", intel: "1e1ea9d835029effcd74047db17eedecced58f36efb67e96689dd5c4de95ce18"
 
   url "https://github.com/behnambagheri/ipinfo/releases/download/v#{version}/IPinfo-#{version}-#{arch}.zip"
   name "IPinfo"

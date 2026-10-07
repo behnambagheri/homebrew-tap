@@ -50,7 +50,7 @@ brew uninstall --cask ipinfo
 This tap is maintained by the project and is not the official Homebrew cask
 repository. The unrelated `brew install ipinfo` formula is a different project.
 
-[App source and build instructions](https://github.com/behnambagheri/ipinfo/tree/v1.2.1/macos)
+[App source and build instructions](https://github.com/behnambagheri/ipinfo/tree/v1.2.2/macos)
 · [Releases](https://github.com/behnambagheri/ipinfo/releases)
 
 ## Maintaining releases
